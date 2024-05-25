@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(0, 109, 141);
+  background: linear-gradient(
+    120deg,
+    rgba(0, 109, 141, 1) 0%,
+    rgba(0, 106, 42, 1) 100%
+  );
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  border: 3px solid rgb(28, 28, 28);
+  margin: 20px;
+  border-radius: 5px;
+  background: transparent;
+  color: aliceblue;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.userContent {
+  margin-top: 25px;
+  padding: 100px;
+}
+
+.userContent h5 {
+  margin-top: 40px;
+}
+
+.address,
+.company,
+.contact {
+  /* text-align: center; */
+  padding: 10px;
+  border: 2px solid aliceblue;
+  margin: 10px;
+  width: 100%;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 1.1rem;
+}
+
+.buttonContainer button {
+  font-size: 1.3rem;
+  padding: 20px;
+  border-radius: 4pxs;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  background: transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.display {
+  display: none;
+}
+
+.focusEffect {
+  background-color: aliceblue !important;
+  color: rgb(28, 28, 28) !important;
+}

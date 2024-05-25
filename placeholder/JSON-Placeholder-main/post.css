@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(0, 167, 189);
+  background: linear-gradient(
+    120deg,
+    rgb(0, 113, 141) 0%,
+    rgb(158, 158, 158) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container button {
+  padding: 15px;
+  background: transparent;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  text-align: center;
+  border: 3px solid rgb(28, 28, 28);
+  margin: 20px;
+  border-radius: 5px;
+  background: transparent;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.card h4,
+h5,
+p {
+  margin-bottom: 10px;
+}
